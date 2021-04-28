@@ -32,6 +32,7 @@ RUN apt-get update && \
     find /opt/conda/ -follow -type f -name '*.js.map' -delete && \
     pip install ont-bonito && \
     bonito download --models --latest -f && \
+    pip install cupy --no-cache-dir -vvvv && \
     apt-get autoremove --purge --yes && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
