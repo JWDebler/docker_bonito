@@ -4,7 +4,7 @@ FROM nvidia/cuda:10.2-devel-ubuntu18.04
 # File Author / Maintainer
 MAINTAINER Johannes Debler <johannes.debler@curtin.edu.au>
 
-ARG BONITO_VERSION=0.3.8
+ARG BONITO_VERSION=0.4.0
 ARG CONDA_VERSION=py38_4.9.2
 ARG CONDA_MD5=122c8c9beb51e124ab32a0fa6426c656
 
